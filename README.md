@@ -13,5 +13,5 @@
 - 1、localhost:8080/refresh  刷新数据源
 - 2、localhost:8080/test     查询数据，传请求头 `dbs = 对应数据源的key`
 
-![Image text](https://github.com/yzcheng90/dynamic-data-source/blob/master/doc/1.jpg)
-![Image text](https://github.com/yzcheng90/dynamic-data-source/blob/master/doc/2.jpg)
+![Image text](https://github.com/yzcheng90/dynamic-data-source/blob/master/doc/1.png)
+![Image text](https://github.com/yzcheng90/dynamic-data-source/blob/master/doc/2.png)
