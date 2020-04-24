@@ -29,11 +29,17 @@ public class TestController {
 
     private ObjectMapper objectMapper = new ObjectMapper();
 
-    @RequestMapping(value = "reloadDataSource",method = RequestMethod.GET)
-    public String reloadDataSource(){
+    /**
+     * @Author czx
+     * @Description //TODO 每次添加或修改数据源时，记得调用该方法刷新
+     * @Date 17:07 2020/4/24
+     * @Param []
+     * @return java.lang.String
+     **/
+    @RequestMapping(value = "/refresh",method = RequestMethod.GET)
+    public void refresh(){
         dynamicDataSourceConfig.reset();
         log.info("-----数据源设置成功！");
-        return "数据源设置成功！";
     }
 
     @SneakyThrows
